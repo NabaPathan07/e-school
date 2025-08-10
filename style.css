@@ -1,0 +1,70 @@
+/*font family*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+/*common css start*/
+:root{
+  --black:#000000;
+  --green:#21b573;
+  --white:#ffffff;
+  --bg:#F0FFF0;
+
+  --red:#Fd511A;
+
+  --pop:"Poppins", sans-serif;
+  --rob:"Roboto", sans-sarif;
+}
+body{
+  font-family: var(--pop);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+}
+/*common css end*/
+/*header start*/
+hedaer{
+  padding: 15px 0;
+  background-color: var(--bg) !important;
+}
+
+.cnav{}
+.n_brand{}
+.logo{}
+.logo_h1{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black);
+}
+.menu{}
+.menu ul li a{
+  padding: 0 15px !important;
+  color: var(--black) !important;
+  
+
+}
+menu ul li a:hover{
+  color: var(--red) !important;
+}
+.btn_cn{
+  background-color: var(--green);
+  border-radius: 33px;
+  font-family: var(--rob);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn_sign_in{
+  margin-left: 10px;
+  padding: 12px 28px;
+
+}
+
+.btn_cm:hovar{
+  background-color: var(--red);
+  color: var(--white);
+}
+.btn_cm:active{
+  background-color: var(--red) !important;
+  color: var(--white)  !important;
+}
+/*header end*/
